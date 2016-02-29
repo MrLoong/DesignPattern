@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Model.h"
+#import "CardAdapterProtocol.h"
 
 
 
@@ -32,15 +33,11 @@
 @property(nonatomic,strong) UIColor  *line;
 
 /**
- *  初始化
- */
-
-/**
  *  初始化数据
  *
  *  @param model Model
  */
--(void)loadDataWithModel:(Model *)model;
+-(void)loadDataWithModel:(id<CardAdapterProtocol>)data;
 
 
 @end

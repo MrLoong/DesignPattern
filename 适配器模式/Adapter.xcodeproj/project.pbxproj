@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1173241C842EB500F50D30 /* CardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1173231C842EB500F50D30 /* CardAdapter.m */; };
+		FC1173271C8431D900F50D30 /* ModelCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1173261C8431D800F50D30 /* ModelCardAdapter.m */; };
 		FC4DAACC1C83168E00960575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4DAACB1C83168E00960575 /* main.m */; };
 		FC4DAACF1C83168E00960575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4DAACE1C83168E00960575 /* AppDelegate.m */; };
 		FC4DAAD21C83168E00960575 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4DAAD11C83168E00960575 /* ViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1173221C842EB500F50D30 /* CardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAdapter.h; sourceTree = "<group>"; };
+		FC1173231C842EB500F50D30 /* CardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardAdapter.m; sourceTree = "<group>"; };
+		FC1173251C8431D800F50D30 /* ModelCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCardAdapter.h; sourceTree = "<group>"; };
+		FC1173261C8431D800F50D30 /* ModelCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCardAdapter.m; sourceTree = "<group>"; };
 		FC4DAAC71C83168E00960575 /* Adapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4DAACB1C83168E00960575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC4DAACD1C83168E00960575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,16 +55,17 @@
 		FC4DAAD91C83168E00960575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4DAADC1C83168E00960575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4DAADE1C83168E00960575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC4DAAE31C83168E00960575 /* AdapterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdapterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4DAAE31C83168E00960575 /* Adapter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adapter.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4DAAE71C83168E00960575 /* AdapterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterTests.m; sourceTree = "<group>"; };
 		FC4DAAE91C83168E00960575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC4DAAEE1C83168E00960575 /* AdapterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdapterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4DAAEE1C83168E00960575 /* Adapter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adapter.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4DAAF21C83168E00960575 /* AdapterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterUITests.m; sourceTree = "<group>"; };
 		FC4DAAF41C83168E00960575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4DAB001C83170400960575 /* BusinessCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusinessCard.h; path = BusinessCard/BusinessCard.h; sourceTree = "<group>"; };
 		FC4DAB011C83170400960575 /* BusinessCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusinessCard.m; path = BusinessCard/BusinessCard.m; sourceTree = "<group>"; };
 		FC4DAB081C83346C00960575 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		FC4DAB091C83346C00960575 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		FCA205AC1C842D9E000B1224 /* CardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAdapterProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				FC4DAAC71C83168E00960575 /* Adapter.app */,
-				FC4DAAE31C83168E00960575 /* AdapterTests.xctest */,
-				FC4DAAEE1C83168E00960575 /* AdapterUITests.xctest */,
+				FC4DAAE31C83168E00960575 /* Adapter.xctest */,
+				FC4DAAEE1C83168E00960575 /* Adapter.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +163,9 @@
 			children = (
 				FC4DAB001C83170400960575 /* BusinessCard.h */,
 				FC4DAB011C83170400960575 /* BusinessCard.m */,
+				FCA205AC1C842D9E000B1224 /* CardAdapterProtocol.h */,
+				FC1173221C842EB500F50D30 /* CardAdapter.h */,
+				FC1173231C842EB500F50D30 /* CardAdapter.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -165,6 +175,8 @@
 			children = (
 				FC4DAB081C83346C00960575 /* Model.h */,
 				FC4DAB091C83346C00960575 /* Model.m */,
+				FC1173251C8431D800F50D30 /* ModelCardAdapter.h */,
+				FC1173261C8431D800F50D30 /* ModelCardAdapter.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -204,7 +216,7 @@
 			);
 			name = AdapterTests;
 			productName = AdapterTests;
-			productReference = FC4DAAE31C83168E00960575 /* AdapterTests.xctest */;
+			productReference = FC4DAAE31C83168E00960575 /* Adapter.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		FC4DAAED1C83168E00960575 /* AdapterUITests */ = {
@@ -222,7 +234,7 @@
 			);
 			name = AdapterUITests;
 			productName = AdapterUITests;
-			productReference = FC4DAAEE1C83168E00960575 /* AdapterUITests.xctest */;
+			productReference = FC4DAAEE1C83168E00960575 /* Adapter.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -302,9 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4DAAD21C83168E00960575 /* ViewController.m in Sources */,
+				FC1173271C8431D900F50D30 /* ModelCardAdapter.m in Sources */,
 				FC4DAAD81C83168E00960575 /* Adapter.xcdatamodeld in Sources */,
 				FC4DAACF1C83168E00960575 /* AppDelegate.m in Sources */,
 				FC4DAB0A1C83346C00960575 /* Model.m in Sources */,
+				FC1173241C842EB500F50D30 /* CardAdapter.m in Sources */,
 				FC4DAB021C83170400960575 /* BusinessCard.m in Sources */,
 				FC4DAACC1C83168E00960575 /* main.m in Sources */,
 			);
@@ -397,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,9 +463,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Adapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.Adapter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.Apater;
+				PRODUCT_NAME = Adapter;
 			};
 			name = Debug;
 		};
@@ -461,9 +476,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Adapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.Adapter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.Apater;
+				PRODUCT_NAME = Adapter;
 			};
 			name = Release;
 		};
@@ -474,7 +490,7 @@
 				INFOPLIST_FILE = AdapterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.AdapterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Adapter;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adapter.app/Adapter";
 			};
 			name = Debug;
@@ -486,7 +502,7 @@
 				INFOPLIST_FILE = AdapterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.AdapterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Adapter;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adapter.app/Adapter";
 			};
 			name = Release;
@@ -497,7 +513,7 @@
 				INFOPLIST_FILE = AdapterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.AdapterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Adapter;
 				TEST_TARGET_NAME = Adapter;
 				USES_XCTRUNNER = YES;
 			};
@@ -509,7 +525,7 @@
 				INFOPLIST_FILE = AdapterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.AdapterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Adapter;
 				TEST_TARGET_NAME = Adapter;
 				USES_XCTRUNNER = YES;
 			};
@@ -534,6 +550,7 @@
 				FC4DAAF91C83168E00960575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC4DAAFA1C83168E00960575 /* Build configuration list for PBXNativeTarget "AdapterTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +559,7 @@
 				FC4DAAFC1C83168E00960575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC4DAAFD1C83168E00960575 /* Build configuration list for PBXNativeTarget "AdapterUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +568,7 @@
 				FC4DAAFF1C83168E00960575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

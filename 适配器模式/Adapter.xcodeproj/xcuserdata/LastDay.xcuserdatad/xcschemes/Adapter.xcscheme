@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FC4DAAE21C83168E00960575"
-               BuildableName = "AdapterTests.xctest"
+               BuildableName = "Adapter.xctest"
                BlueprintName = "AdapterTests"
                ReferencedContainer = "container:Adapter.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FC4DAAED1C83168E00960575"
-               BuildableName = "AdapterUITests.xctest"
+               BuildableName = "Adapter.xctest"
                BlueprintName = "AdapterUITests"
                ReferencedContainer = "container:Adapter.xcodeproj">
             </BuildableReference>

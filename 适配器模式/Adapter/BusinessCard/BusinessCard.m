@@ -78,14 +78,14 @@
 
 
 /**
- *  初始化数据
+ *  初始化卡片数据
  *
  *  @param model BusinessCard
  */
--(void)loadDataWithModel:(Model *)model{
-    self.name        = model.name;
-    self.phoneNumber = model.phoneNumber;
-    self.line        = model.lineColor;
+-(void)loadDataWithModel:(id<CardAdapterProtocol>)data{
+    self.name        = [data name];
+    self.phoneNumber = [data phoneNumber];
+    self.line        = [data lineColor];
 }
 
 @end

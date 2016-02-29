@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "BusinessCard.h"
 #import "Model.h"
+#import "ModelCardAdapter.h"
+
 
 @interface ViewController ()
 
@@ -22,10 +24,16 @@
 
     
     Model *model = [[Model alloc] initWithName:@"lastdays" phoneNumber:@"158******1111" lineColor:[UIColor blueColor]];
+    
+    //建立充电器跟电源关系
+    CardAdapter *cardAdapter = [[ModelCardAdapter alloc] initWithModel:model];
+    
+    
     BusinessCard *card = [[BusinessCard alloc] initWithFrame:BUSINESS_FRAME];
     card.center = self.view.center;
     
-    [card loadDataWithModel:model];
+    //建立手机跟充电器关系
+    [card loadDataWithModel:cardAdapter];
     [self.view addSubview:card];
 }
 
