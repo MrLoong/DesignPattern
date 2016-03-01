@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC7042331C857CEE00D772B2"
-               BuildableName = "StrategyPattern.app"
-               BlueprintName = "StrategyPattern"
-               ReferencedContainer = "container:StrategyPattern.xcodeproj">
+               BlueprintIdentifier = "FC7041EE1C8573D500D772B2"
+               BuildableName = "Strategy.app"
+               BlueprintName = "Strategy"
+               ReferencedContainer = "container:Strategy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC70424F1C857CEE00D772B2"
-               BuildableName = "StrategyPatternTests.xctest"
-               BlueprintName = "StrategyPatternTests"
-               ReferencedContainer = "container:StrategyPattern.xcodeproj">
+               BlueprintIdentifier = "FC70420A1C8573D500D772B2"
+               BuildableName = "StrategyTests.xctest"
+               BlueprintName = "StrategyTests"
+               ReferencedContainer = "container:Strategy.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC70425A1C857CEE00D772B2"
-               BuildableName = "StrategyPatternUITests.xctest"
-               BlueprintName = "StrategyPatternUITests"
-               ReferencedContainer = "container:StrategyPattern.xcodeproj">
+               BlueprintIdentifier = "FC7042151C8573D600D772B2"
+               BuildableName = "StrategyUITests.xctest"
+               BlueprintName = "StrategyUITests"
+               ReferencedContainer = "container:Strategy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC7042331C857CEE00D772B2"
-            BuildableName = "StrategyPattern.app"
-            BlueprintName = "StrategyPattern"
-            ReferencedContainer = "container:StrategyPattern.xcodeproj">
+            BlueprintIdentifier = "FC7041EE1C8573D500D772B2"
+            BuildableName = "Strategy.app"
+            BlueprintName = "Strategy"
+            ReferencedContainer = "container:Strategy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC7042331C857CEE00D772B2"
-            BuildableName = "StrategyPattern.app"
-            BlueprintName = "StrategyPattern"
-            ReferencedContainer = "container:StrategyPattern.xcodeproj">
+            BlueprintIdentifier = "FC7041EE1C8573D500D772B2"
+            BuildableName = "Strategy.app"
+            BlueprintName = "Strategy"
+            ReferencedContainer = "container:Strategy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC7042331C857CEE00D772B2"
-            BuildableName = "StrategyPattern.app"
-            BlueprintName = "StrategyPattern"
-            ReferencedContainer = "container:StrategyPattern.xcodeproj">
+            BlueprintIdentifier = "FC7041EE1C8573D500D772B2"
+            BuildableName = "Strategy.app"
+            BlueprintName = "Strategy"
+            ReferencedContainer = "container:Strategy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

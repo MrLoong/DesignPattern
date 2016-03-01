@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  StrategyPattern
+//  Strategy
 //
 //  Created by LastDay on 16/3/1.
 //  Copyright © 2016年 LastDays. All rights reserved.

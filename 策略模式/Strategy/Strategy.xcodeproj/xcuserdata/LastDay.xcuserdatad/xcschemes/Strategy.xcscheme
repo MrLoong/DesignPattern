@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC7041EE1C8573D500D772B2"
+               BlueprintIdentifier = "FC7042821C85849700D772B2"
                BuildableName = "Strategy.app"
                BlueprintName = "Strategy"
                ReferencedContainer = "container:Strategy.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC70420A1C8573D500D772B2"
+               BlueprintIdentifier = "FC70429E1C85849700D772B2"
                BuildableName = "StrategyTests.xctest"
                BlueprintName = "StrategyTests"
                ReferencedContainer = "container:Strategy.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC7042151C8573D600D772B2"
+               BlueprintIdentifier = "FC7042A91C85849700D772B2"
                BuildableName = "StrategyUITests.xctest"
                BlueprintName = "StrategyUITests"
                ReferencedContainer = "container:Strategy.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC7041EE1C8573D500D772B2"
+            BlueprintIdentifier = "FC7042821C85849700D772B2"
             BuildableName = "Strategy.app"
             BlueprintName = "Strategy"
             ReferencedContainer = "container:Strategy.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC7041EE1C8573D500D772B2"
+            BlueprintIdentifier = "FC7042821C85849700D772B2"
             BuildableName = "Strategy.app"
             BlueprintName = "Strategy"
             ReferencedContainer = "container:Strategy.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC7041EE1C8573D500D772B2"
+            BlueprintIdentifier = "FC7042821C85849700D772B2"
             BuildableName = "Strategy.app"
             BlueprintName = "Strategy"
             ReferencedContainer = "container:Strategy.xcodeproj">

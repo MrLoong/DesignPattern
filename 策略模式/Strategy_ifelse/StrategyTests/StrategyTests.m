@@ -1,6 +1,6 @@
 //
-//  StrategyPatternTests.m
-//  StrategyPatternTests
+//  StrategyTests.m
+//  StrategyTests
 //
 //  Created by LastDay on 16/3/1.
 //  Copyright © 2016年 LastDays. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface StrategyPatternTests : XCTestCase
+@interface StrategyTests : XCTestCase
 
 @end
 
-@implementation StrategyPatternTests
+@implementation StrategyTests
 
 - (void)setUp {
     [super setUp];
