@@ -16,6 +16,7 @@
 		FC7042051C8573D500D772B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7042031C8573D500D772B2 /* LaunchScreen.storyboard */; };
 		FC7042101C8573D500D772B2 /* StrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC70420F1C8573D500D772B2 /* StrategyTests.m */; };
 		FC70421B1C8573D600D772B2 /* StrategyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC70421A1C8573D600D772B2 /* StrategyUITests.m */; };
+		FC70422A1C85745D00D772B2 /* TypeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7042291C85745D00D772B2 /* TypeValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FC7042161C8573D600D772B2 /* StrategyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC70421A1C8573D600D772B2 /* StrategyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyUITests.m; sourceTree = "<group>"; };
 		FC70421C1C8573D600D772B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7042281C85745D00D772B2 /* TypeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeValue.h; sourceTree = "<group>"; };
+		FC7042291C85745D00D772B2 /* TypeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeValue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				FC7041F61C8573D500D772B2 /* AppDelegate.m */,
 				FC7041F81C8573D500D772B2 /* ViewController.h */,
 				FC7041F91C8573D500D772B2 /* ViewController.m */,
+				FC7042281C85745D00D772B2 /* TypeValue.h */,
+				FC7042291C85745D00D772B2 /* TypeValue.m */,
 				FC7041FB1C8573D500D772B2 /* Main.storyboard */,
 				FC7042011C8573D500D772B2 /* Assets.xcassets */,
 				FC7042031C8573D500D772B2 /* LaunchScreen.storyboard */,
@@ -210,7 +215,6 @@
 				TargetAttributes = {
 					FC7041EE1C8573D500D772B2 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 637MP4Y88D;
 					};
 					FC70420A1C8573D500D772B2 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -277,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7042001C8573D500D772B2 /* Strategy.xcdatamodeld in Sources */,
+				FC70422A1C85745D00D772B2 /* TypeValue.m in Sources */,
 				FC7041FA1C8573D500D772B2 /* ViewController.m in Sources */,
 				FC7041F71C8573D500D772B2 /* AppDelegate.m in Sources */,
 				FC7041F41C8573D500D772B2 /* main.m in Sources */,
@@ -420,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Strategy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.Strategy;
@@ -431,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Strategy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uit.lastdays.Strategy;
